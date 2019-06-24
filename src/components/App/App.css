@@ -1,0 +1,31 @@
+.App {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: auto;
+}
+
+.App .message-editor-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.users-list {
+    min-width: 600px;
+}
+
+.users-list .header {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.table-actions {
+    margin-bottom: 10px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
